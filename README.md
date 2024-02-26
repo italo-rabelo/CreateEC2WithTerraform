@@ -7,4 +7,7 @@ Before starting, you'll need :
 - Terraform installed on your device. The installation tutorial can be easily founded [here](https://developer.hashicorp.com/terraform/install)
 
 ## First Steps
-Clone this repository into your local files: ```git clone git@github.com:italo-rabelo/CreateEC2WithTerraform.git```
+Clone this repository into your local files:
+```
+git clone git@github.com:italo-rabelo/CreateEC2WithTerraform.git
+```
