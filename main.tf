@@ -15,7 +15,7 @@ provider "aws" {
   default_tags {
     tags = {
       owner = "italo-rabelo"
-      menaged-by "terraform"
+      menaged-by = "terraform"
     }
   }
 }
