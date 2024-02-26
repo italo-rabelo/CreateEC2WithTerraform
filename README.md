@@ -8,8 +8,14 @@ Before starting, you'll need :
 - The [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) installed
 
 ## Configuration
-### Use your IAM (Indetity and Access Management) credentials to authenticate the Terraform AWS provider.
-   You can obtein your ```AWS_ACCESS_KEY_ID``` and ```AWS_SECRET_ACESS_KEYS``` as the follows:
+### 1. Clone this repository into your local files:
+```
+git clone git@github.com:italo-rabelo/CreateEC2WithTerraform.git
+cd CreateEC2WithTerraform/
+```
+
+### 2. Use your IAM (Indetity and Access Management) credentials to authenticate the Terraform AWS provider.
+   You can obtain your ```AWS_ACCESS_KEY_ID``` and ```AWS_SECRET_ACESS_KEYS``` as the follows:
    1. In AWS console, access IAM.
    2. Select Users on left navigation pane
    3. Click on Security Credentials
@@ -34,11 +40,9 @@ export AWS_ACCESS_KEY_ID=paste_your_access_key_id_here
 export AWS_SECRET_ACCESS_KEY=paste_your_secret_access_key_here
 ```
 
-
-1. Clone this repository into your local files:
+### 3. Initialize Terraform on the directory by running the following
 ```
-git clone git@github.com:italo-rabelo/CreateEC2WithTerraform.git
+terraform init
 ```
+Initializing a configuration directory downloads and installs the providers defined in the configuration files, wich in this case is ```aws``` provider.
 
-2. Use your IAM (Indetity and Access Management) credentials to authenticate the Terraform AWS provider
-   In AWS console, access IAM
