@@ -145,9 +145,11 @@ resource "aws_instance" "app_server" {
     }
 }
 ```
+### 7. Cleaning
+To avoid unexpected charges, don't forget to delete the resource that you deployd with ```terraform destroy command```
 
 
-
+![Captura de tela de 2024-02-26 14-58-56](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/e9251686-4b36-4d28-a9d6-5fb1cdfd0bd3)
 
 
 
