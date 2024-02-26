@@ -11,15 +11,14 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-}
 
-
-resource "aws_instance" "app_server" {
-  ami           = "ami-0440d3b780d96b29d"
-  instance_type = "t2.micro"
-  monitoring             = true
-
-  tags = {
-    Name = "var.instance_name"
+  default_tags {
+    tags = {
+      owner = "italo-rabelo"
+      menaged-by "terraform"
+    }
   }
 }
+
+
+
