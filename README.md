@@ -17,7 +17,7 @@ Before starting, you'll need :
       
    ![Captura de tela de 2024-02-26 13-25-14](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/9e98469d-cb9a-470e-8636-c9471c75d930)
 
-   5. In use cases, select Cmmand Line Interface (CLI) and go next
+   5. In use cases, select Command Line Interface (CLI) and go next
     
    ![Captura de tela de 2024-02-26 13-26-41](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/37ed087f-2db6-4c69-8340-9629e4b53711)
 
@@ -26,8 +26,13 @@ Before starting, you'll need :
 
    ![Captura de tela de 2024-02-26 13-30-54](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/80c4f76f-08ec-4242-94b4-6d2de0b9e0bd)
 
-
-
+### Now you can use your credentials to authenticate on your terminal by running the following commands
+```
+export AWS_ACCESS_KEY_ID=paste_your_access_key_id_here
+```
+```
+export AWS_SECRET_ACCESS_KEY=paste_your_secret_access_key_here
+```
 
 
 1. Clone this repository into your local files:
