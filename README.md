@@ -48,7 +48,8 @@ The ```terraform init``` command is executed once before any other terraform com
 terraform init
 ```
 
-![Captura de tela de 2024-02-26 13-53-26](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/95ebd673-325d-47ef-9656-275d99d23e18)
+![Captura de tela de 2024-02-26 14-54-10](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/464f5b51-919a-4dd7-a140-3c21e41d45a2)
+
 
 Initializing a configuration directory downloads and installs the providers defined in the configuration files, wich in this case is ```aws``` provider.
 
@@ -60,7 +61,9 @@ The ```terraform plan``` command reads the configuration files inside the workin
 terraform plan
 ```
 
-![Captura de tela de 2024-02-26 14-27-36](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/11354b48-a30b-4f47-b7f7-79c0db45f8e4)
+![Captura de tela de 2024-02-26 14-52-29](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/1ee45561-052f-46ae-abb0-038ebce67168)
+
+
 
 
 ### 5. Create the instance
