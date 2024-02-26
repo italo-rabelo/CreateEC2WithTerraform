@@ -44,5 +44,24 @@ export AWS_SECRET_ACCESS_KEY=paste_your_secret_access_key_here
 ```
 terraform init
 ```
+
+![Captura de tela de 2024-02-26 13-53-26](https://github.com/italo-rabelo/CreateEC2WithTerraform/assets/107402049/95ebd673-325d-47ef-9656-275d99d23e18)
+
 Initializing a configuration directory downloads and installs the providers defined in the configuration files, wich in this case is ```aws``` provider.
+
+### 4. Acess the configuration plan to see what resources will be deployed
+```
+terraform plan
+```
+
+
+
+
+
+
+
+
+
+
+
 
